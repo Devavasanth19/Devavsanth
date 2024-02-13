@@ -1,0 +1,138 @@
+@media (min-width: 1201px) and (max-width: 1600px) {
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.background > img {
+  /* background-color: #c2a4ff; */
+  height: 690px;
+  width: 100%;
+}
+.name {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+font-family: 'Caveat', cursive;
+  font-size: 28pt;
+  color: black
+}
+.subinfo{
+    position: absolute;
+    top: 400px;
+    left: 350px;
+  font-family: 'Caveat', cursive;
+    font-size: 28pt;
+    color: black
+}
+.bioimg > img{
+    width: 100px;
+}
+.bioimg{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+.bio p {
+    width: 900px;
+    text-align: center;
+    padding-left: 300px;
+    font-size: 16pt;
+}
+.bio h2{
+    text-align: center;
+    color: #9560ff;
+    font-size: 24pt;
+}
+hr {
+  border: dotted #C2A4FF 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+.skills h2{
+    text-align: center;
+    color: #9560ff;
+    font-size: 24pt;
+}
+.skillsimg img{
+    width: 100px;
+    border-radius: 20px;
+}
+.skillsimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skillsname ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.skillsname li {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18pt;
+    color: #5500ff;
+    font-weight: bold;
+
+}
+.tools h2{
+  text-align: center;
+  color: #9560ff;
+  font-size: 24pt;
+}
+.toolsimg img{
+  width: 100px;
+  border-radius: 20px;
+}
+.toolsimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.toolsname ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-left: 25px;
+
+}
+.toolsname li {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18pt;
+  color: #5500ff;
+  font-weight: bold;
+}
+.Contact{
+  text-align: center;
+}
+.btn {
+  background: #9560ff;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #5500ff;
+}
+.bottom-container {
+  text-align: center;
+  font-size: 14pt;
+  padding: 50px 0 20px;
+}
+.bottom-container>.footer-link{
+  margin-left: 200px;
+}
+.bottom-container:hover{
+  color: white;
+}
+.copyright{
+  text-align: center;
+}
+}
